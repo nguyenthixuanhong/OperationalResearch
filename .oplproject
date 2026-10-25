@@ -3,7 +3,18 @@
     <version>1.0</version>
     	
     <configs>
-	</configs>
+        		
+        <config default="true" name="Configuration3" category="opl">
+            			
+            <ref name="LocationDistributionCenter/LocationData.dat" type="data">
+			</ref>
+            			
+            <ref name="LocationDistributionCenter/LocationDistributionCenter.mod" type="model">
+			</ref>
+            		
+        </config>
+        	
+    </configs>
     	
 
 </project>
