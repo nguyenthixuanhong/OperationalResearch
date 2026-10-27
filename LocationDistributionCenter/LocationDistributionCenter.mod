@@ -25,8 +25,6 @@ subject to {
   	sum (i in 1..n) q[i][j] == d[j];
   forall (i in 1..n)
   	sum (j in 1..m) q[i][j] <= K[i] * x[i];
-//  forall(i in 1..n, j in 1..m : c[i][j] >= 100000)
-//		q[i][j] == 0;
 
   }
   

@@ -1,0 +1,34 @@
+/*********************************************
+ * OPL 22.1.0.0 Data
+ * Author: Céline
+ * Creation Date: 1 nov. 2025 at 17:08:07
+ *********************************************/
+
+// number of nurses
+ N=2;
+// number of patients
+ P=10;
+ // treatment duration of each patient
+ d=[20, 30, 25, 10, 25, 30, 10, 40, 10, 15];
+ // earliest starting date of the treatment of each patient
+ S=[420,420,420,480,480,540,540,540,540,600];
+ // latest finishing date of the treatment of each patient
+ F=[480,480,660,540,540,600,660,660,600,660];
+ // earliest leaving time of the center in the morning
+ L =420 ;
+ // latest arrival time at the center at the end of the nurse shift
+ A =660;
+ // travelling times
+ // p=0 corresponds to the depot, p=1..P to the patients' homes
+ T=[[	0	,	16	,	11	,	13	,	5	,	12	,	5	,	11	,	11	,	16	,	14	],
+[	16	,	0	,	11	,	17	,	11	,	9	,	15	,	25	,	27	,	30	,	27	],
+[	11	,	11	,	0	,	5	,	7	,	15	,	14	,	16	,	20	,	27	,	25	],
+[	13	,	17	,	5	,	0	,	10	,	20	,	17	,	13	,	19	,	27	,	26	],
+[	5	,	11	,	7	,	10	,	0	,	10	,	7	,	14	,	16	,	21	,	18	],
+[	12	,	9	,	15	,	20	,	10	,	0	,	9	,	23	,	23	,	23	,	19	],
+[	5	,	15	,	14	,	17	,	7	,	9	,	0	,	16	,	14	,	15	,	12	],
+[	11	,	25	,	16	,	13	,	14	,	23	,	16	,	0	,	7	,	18	,	18	],
+[	11	,	27	,	20	,	19	,	16	,	23	,	14	,	7	,	0	,	11	,	12	],
+[	16	,	30	,	27	,	27	,	21	,	23	,	15	,	18	,	11	,	0	,	4	],
+[	14	,	27	,	25	,	26	,	18	,	19	,	12	,	18	,	12	,	4	,	0	]];
+ 
